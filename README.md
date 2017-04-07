@@ -1,5 +1,5 @@
-# post-view
-a view that displays a list of posts using React, Redux, live-server and css in modular style
+# Calculator
+A calculator created using React.
+To start the webpack-dev-server, run `npm start`.
 
-## Note
-You should install `live-server` globally if you want to run `npm start`
+A basic project structure with airbnb linting and server set up has been saved in the branch `basic-project-setup`
