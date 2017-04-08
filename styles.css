@@ -9,8 +9,8 @@ body {
 .calc {
   padding: 20px;
   color: green;
-  width: 250px;
-  height: 270px;
+  width: 290px;
+  height: 320px;
   border: 1px solid green;
 }
 
@@ -19,6 +19,7 @@ body {
   height: 25px;
   border: 1px solid blue;
   margin-bottom: 10px;
+  text-align: right;
 }
 
 

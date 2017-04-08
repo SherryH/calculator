@@ -6,6 +6,7 @@
   "ecmaFeatures": { "modules": true },
   rules: {
     "no-undef": 1,
+    "no-eval": 1,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
