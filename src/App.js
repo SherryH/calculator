@@ -10,9 +10,9 @@ class App extends React.Component {
   }
 
   operate(val) {
-    valNew = val.replace(/x/, '*'); // set JS recognisable multiplier
+    const valNew = val.replace(/x/, '*'); // set JS recognisable multiplier
     if (val === '=') {
-      //http://stackoverflow.com/questions/6479236/calculate-string-value-in-javascript-not-using-eval
+      // http://stackoverflow.com/questions/6479236/calculate-string-value-in-javascript-not-using-eval
       const calcVal = eval(this.state.expression);
       this.setState({
         expression: calcVal,
