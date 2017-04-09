@@ -1,5 +1,6 @@
 import React from 'react';
 import Key from './Key';
+import styles from './App.css';
 
 const App = ({ expression, operate }) => {
   const renderKey = (val) => {
@@ -16,33 +17,33 @@ const App = ({ expression, operate }) => {
   };
 
   return (
-    <div className="calc">
+    <div className={styles.calc}>
       A calculator
-      <input className="panel" value={expression}/>
+      <input className={styles.panel} value={expression}/>
       <div className="keypad">
-        <div className="row">
+        <div className={styles.row}>
           {renderKey('Clear')}
           {renderKey('<--')}
         </div>
-        <div className="row">
+        <div className={styles.row}>
           {renderKey(7)}
           {renderKey(8)}
           {renderKey(9)}
           {renderKey('/')}
         </div>
-        <div className="row">
+        <div className={styles.row}>
           {renderKey(4)}
           {renderKey(5)}
           {renderKey(6)}
           {renderKey('x')}
         </div>
-        <div className="row">
+        <div className={styles.row}>
           {renderKey(1)}
           {renderKey(2)}
           {renderKey(3)}
           {renderKey('-')}
         </div>
-        <div className="row">
+        <div className={styles.row}>
           {renderKey(0)}
           {renderKey('.')}
           {renderKey('=')}

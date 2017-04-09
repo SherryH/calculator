@@ -1,0 +1,19 @@
+.col {
+  flex:1;
+  margin: auto 2px;
+}
+
+
+.btn {
+  border: 2px;
+  background-color: #26a69a;
+  color: white;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 1rem;
+}
+
+.blue {
+  background-color: #1565c0;
+}

@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './Key.css';
 
 function Key({ val, otherClass, callback }) {
   return (
-    <div className={`col btn ${otherClass}`} onClick={callback}>{val}</div>
+    <div className={`${styles.col} ${styles.btn} ${styles[otherClass]}`} onClick={callback}>{val}</div>
   );
 }
 
